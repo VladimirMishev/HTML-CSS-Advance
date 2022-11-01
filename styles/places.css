@@ -1,0 +1,79 @@
+
+body {
+    background: linear-gradient(30deg, rgb(93, 94, 94), rgb(49, 50, 50));
+    color: rgb(49, 50, 50);
+}
+
+header {
+    position: static;
+}
+
+#logo a {
+    color: rgb(0, 255, 255);
+}
+
+header a {
+    color: rgb(0, 255, 255)
+}
+
+header nav a:hover {
+    background-color: rgb(0, 255, 255);
+}
+
+
+main ul {
+    list-style: none;
+    width: 1200px;
+    padding: 0;
+    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: 2;
+    gap: 20px 20px;
+}
+li:nth-of-type(3) {
+    grid-column: 1 / span 2;
+}
+
+main li {
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.img-content img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 254px;
+}
+
+.link-content {
+    text-align: right;
+}
+
+.text-content h2 {
+    margin-top: 0;
+}
+
+.link-content a {
+    text-decoration: none;
+    color: rgb(11, 225, 225);
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.link-content a:hover {
+    background-color: rgb(0, 255, 255);
+    color: rgb(22, 22, 22);
+}
